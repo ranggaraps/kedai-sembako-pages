@@ -72,17 +72,15 @@ a{
     color:#dc2626;
 }
 
-@media(max-width:768px){
-
-    .menu{
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:10px;
-    }
-
+.menu{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    list-style:none;
 }
 
 .menu a{
+    text-decoration:none;
     color:#334155;
     font-weight:500;
     transition:.3s;
@@ -1728,4 +1726,27 @@ body{
         margin-top:10px;
     }
 
+}
+
+/* =========================
+   MOBILE NAVBAR
+========================= */
+
+@media(max-width:768px){
+
+    .navbar .container{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .menu{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px;
+    }
+
+    .nav-button button{
+        padding:10px 20px;
+    }
 }
