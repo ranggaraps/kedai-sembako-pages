@@ -182,7 +182,7 @@ a{
 
 .stats-grid{
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:25px;
 }
 
@@ -239,8 +239,8 @@ a{
 
 .category-grid{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:30px;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
     margin-top:50px;
 }
 
@@ -291,7 +291,7 @@ a{
 
 .product-grid{
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:25px;
 }
 
@@ -345,7 +345,7 @@ a{
 
 .advantage-grid{
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:25px;
 }
 
@@ -493,8 +493,8 @@ a{
 
 .footer-grid{
     display:grid;
-    grid-template-columns:2fr 1fr 1fr 1fr;
-    gap:40px;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
 }
 
 .footer h3{
