@@ -1687,3 +1687,39 @@ body{
     }
 
 }
+
+@media (max-width: 768px){
+
+    .navbar .container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    .logo{
+        margin-bottom:10px;
+    }
+
+    .menu{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px;
+        width:100%;
+        padding:0;
+    }
+
+    .menu li{
+        list-style:none;
+    }
+
+    .menu a{
+        font-size:14px;
+    }
+
+    .nav-button{
+        margin-top:10px;
+    }
+
+}
