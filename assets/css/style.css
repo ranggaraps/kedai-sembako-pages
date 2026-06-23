@@ -72,10 +72,14 @@ a{
     color:#dc2626;
 }
 
-.menu{
-    display:flex;
-    gap:35px;
-    list-style:none;
+@media(max-width:768px){
+
+    .menu{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+    }
+
 }
 
 .menu a{
@@ -537,14 +541,12 @@ a{
 }
 
 @media(max-width:768px){
-
     .menu{
         display:flex;
         flex-wrap:wrap;
         justify-content:center;
-        gap:12px;
-        width:100%;
     }
+
 
     .hero-wrapper,
     .stats-grid,
