@@ -1,1 +1,0 @@
-# kedai-sembako-pages
